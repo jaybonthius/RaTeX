@@ -20,4 +20,6 @@ A Racket-based (Pollen-based) alternative to MathJaX that brings full-fat LaTeX 
 
 ## How it works
 
+Blah blah blah
+
 ## How to use
