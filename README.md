@@ -66,3 +66,9 @@ Since our equations get rendered as SVG, there's nothing telling the browser how
 ![Baseline](baseline.png)
 
 To solve this, RaTeX slips a microscopic hot-pink-colored period into the beginning of every inline equation, searches the SVG for that pink dot, grab its height, and uses CSS to shift the equation into place. Is it hacky? Yes. But it works.
+
+## Credits
+
+[Matthew Butterick](https://matthewbutterick.com/), the creator of Pollen
+
+McCoy Becker [(@femtomc)](https://github.com/femtomc), whose [`latex.rkt`](https://github.com/femtomc/pollen-slides/blob/main/pollen/src/latex.rkt) served as the starting point for `ratex.rkt`.
