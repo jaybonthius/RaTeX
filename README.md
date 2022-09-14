@@ -14,8 +14,8 @@ A Racket-based (Pollen-based) alternative to MathJaX that brings full-fat LaTeX 
 2. In `pollen.tex` file, paste the following lines near the top:
 
    ```
-   (require "racotex.rkt")
-   (provide (all-from-out "racotex.rkt"))
+   (require "ratex.rkt")
+   (provide (all-from-out "ratex.rkt"))
    ```
 
 ## Why use RaTeX instead of MathJaX?
